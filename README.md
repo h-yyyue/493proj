@@ -25,3 +25,11 @@ Is just having a :) and :( rating enough info to go off by? Sometimes I like and
 I like the design!
 
 -------------------Amy Wang
+
+- As for the main page, the users may click the “Look for recommendations” button before inputting their course experience. If they click the “Look for recommendations” button first, the web system can’t provide reasonable recommendations with a lack of their course experience information. This will lead to kind of errors. 
+- As for the course selection page, the smiley faces and weeping faces may lead to confusion. The users may choose smiley faces due to their interest in this course instead of their academic performances. The meaning of smiley faces and weeping face icons are vague.  Although we designed smiley faces as a kind of indication that the student did excellently in this course, the users may click it just because they enjoy this course. 
+- As for the course selection page, we had better let users choose the courses they have taken in a drop-down menu of the search box or a complete list of all the courses. 
+-  As for the course recommendation page, the users have no access to information about which departments these courses are from. Lacking such information, the users have to recall or search for the information about the departments of these courses on their own. 
+- As for the course information page, the text, buttons, and links are all of the same sizes. This makes it hard for users to find the features they would like to focus on. 
+- As for the course information page, the meaning of "more" buttons are vague. They may link to more detailed information or more choices of resources.
+-------------------Mei-Li Okumura
