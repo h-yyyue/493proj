@@ -1,0 +1,96 @@
+.nav{
+    border-bottom:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:20px;
+}
+
+#logo{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.header{
+    background-color: white;
+    top: 0;
+    padding-top: 0;
+    margin-bottom: 70px;
+}
+
+body {
+  background-color:lemonchiffon
+}
+
+.box{
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+    position: relative;
+    height: auto;
+    border: 2px solid;
+    border-color:gold;
+    font-family: Poppins;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#sub{
+    text-align: center;
+}
+
+#tobold{
+    font-weight: bold;
+}
+
+
+#excercise {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.extitle {
+    font-weight: bold;
+}
+
+.workout{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+#weights{
+    float:right;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+#titles{
+    font-weight: bold;
+}
+
+#types{
+    margin-top: 60px;
+    width: 100%;
+}

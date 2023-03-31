@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="lowfidstyle.css">
+        <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+        />
+        <title>BeeFit: Reviews</title>
+    </head>
+    <body>
+        <div class="header">
+            <img id="logo" src="images/logo.jpeg" alt="logo" />
+            <ul class="nav">
+              <li><a href="home.html">Home</a></li>
+              <li><a href="workout.html">Workouts</a></li>
+              <li><a href="water.html">Water Intake</a></li>
+              <li><a href="LowFidelitySuggestions.html">Review</a></li>
+            </ul>
+          </div>
+
+        <div id="fontfam" class="box">
+        <!-- Give us your feedback -->
+        <p><span id="smallHeader">Add Your Review</span> </p>
+        <p>Thanks for using BeeFit. We'd love to have your feedback!</p>
+
+
+        <span id="border">
+            <span><div id="beeImgDiv">
+                <img class="beeImg" src="images/bee2.png" alt="Bee">
+            </div>
+            <br>
+            
+
+            <label>Name:</label>
+            <input type="text" name="name"></span>
+            <br>
+            
+
+            <!-- Textbox to give feedback -->
+            <!-- <label for="freeform">Comments, concerns or suggestions:</label> -->
+            <br>
+            
+<!-- rows="7" cols="75" -->
+            <textarea id="freeForm" name="freeform">Please write down any comments, concerns or suggestions for our website. Any and all feedback is appreciated:</textarea>
+            <br>
+
+            <!-- buttons -->
+            <input type="checkbox" id="makePublic" name="makePublic" value="makePublic">
+            <label for="makePublic"> Make my review public</label> 
+
+            <input type="checkbox" id="makeAnonymous" name="makeAnonymous" value="makeAnonymous">
+            <label for="makePublic"> Make my review anonymous</label> 
+            
+            <input type="checkbox" id="wantResponse" name="wantResponse" value="wantResponse">
+            <label for="wantResponse"> I would like a response</label> 
+            <br>
+            <br>
+            <button type="button">Submit</button>
+
+        </span>
+
+        <!-- Latest Feedback -->
+        <p><span id="smallHeader">Our Latest Feedback</span> </p>
+
+        <!-- feedback 1 -->
+        <span id="feedbackBorder">
+            <img class="beeImgResponses" src="images/bee2.png" alt="BeeR"><p><span class="feedbackNames">Kelly</span></p>
+            <br><p><span id="time">Sep 26, 2022</p>
+            <!-- <p> <span id="bold">Comment</span></p> -->
+            <br>
+            <p> I love BeeFit its great! </p>
+
+            <button type="button">Agree</button>
+            <button type="button">Disagree</button>
+
+        </span>
+        <!-- feedback 2 -->
+        <span id="feedbackBorder">
+            <img class="beeImgResponses" src="images/bee2.png" alt="BeeR"><p><span class="feedbackNames">Anonymous</span></p>
+            <br><p><span id="time">Oct 27, 2022</p>
+            <!-- <p> <span id="bold">Comment</span></p> -->
+            <br>
+            <p> I have convinced my friends to use BeeFit and we all do the same workouts together. It is a great website to share with friends </p>
+
+            <button type="button">Agree</button>
+            <button type="button">Disagree</button>
+
+        </span>
+        </div>
+
+
+    </body>
+
+</html>
+
