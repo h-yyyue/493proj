@@ -1,6 +1,7 @@
 # 493proj
 
 awwwwwwwww
+## Feedbacks in HE:
 
 How will the user be able to leave the more detailed review?
 
@@ -32,4 +33,5 @@ I like the design!
 -  As for the course recommendation page, the users have no access to information about which departments these courses are from. Lacking such information, the users have to recall or search for the information about the departments of these courses on their own. 
 - As for the course information page, the text, buttons, and links are all of the same sizes. This makes it hard for users to find the features they would like to focus on. 
 - As for the course information page, the meaning of "more" buttons are vague. They may link to more detailed information or more choices of resources.
+ 
 -------------------Mei-Li Okumura
