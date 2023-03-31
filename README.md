@@ -35,3 +35,16 @@ I like the design!
 - As for the course information page, the meaning of "more" buttons are vague. They may link to more detailed information or more choices of resources.
  
 -------------------Mei-Li Okumura
+
+
+on the first index, the title colors should be the same to look better. Choose between blue or black.  Can make the content bigger or fill the page up a bit, cause it looks empty. Sometimes it throws people off from using it.  
+
+Second index looks great, very well put together. Only question is why is only EECS 281 highlighted?
+
+Third index also looks great! No need to change anything, but a recommendation could be to change the format of the layout and how it looks like and fill the page rather than have empty spots on the side. 
+
+Nothing to change on index4.
+
+Last note, maybe change the font of the My Atlas, it may be hard for some to read. It is always better for it to look clear. There are some fonts that are unique but still clear.
+
+-------------------Aya Assaf  (assafaya)
