@@ -28,19 +28,13 @@
 
         function displayListItems() {
             const courseList = document.getElementById("courseList");
-            courseList.innerHTML = courseData.map(course => `<li>${course.department} ${course.number}: ${course.name}</li>`).join('');
+            courseList.innerHTML = courseData
+                .map((course, index) => `<li><a href="course_details.html" data-index="${index}" onclick="saveIndex(event)">${course.department} ${course.number}: ${course.name}</a></li>`)
+                .join('');
         }
 
         function searchFunction() {
-            const departmentInput = document.getElementById("departmentInput");
-            const numberInput = document.getElementById("numberInput");
-            const departmentFilter = departmentInput.value.toUpperCase();
-            const numberFilter = numberInput.value.toUpperCase();
-
-            const filteredData = courseData.filter(course =>
-                course.department.toUpperCase().includes(departmentFilter) &&
-                course.number.toUpperCase().includes(numberFilter)
-            );
+            // ... (other code)
 
             const courseList = document.getElementById("courseList");
             courseList.innerHTML = filteredData
