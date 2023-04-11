@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Search Example</title>
+</head>
+
+<body>
+    <label for="departmentInput">Department:</label>
+    <input type="text" id="departmentInput" oninput="searchFunction()" placeholder="Enter department...">
+
+    <label for="numberInput">Number:</label>
+    <input type="text" id="numberInput" oninput="searchFunction()" placeholder="Enter course number...">
+
+    <ul id="courseList">
+        <!-- Course items will be added dynamically -->
+    </ul>
+
+    <script>
+        async function fetchData() {
+            const response = await fetch('course_info.json');
+            return await response.json();
+        }
+
+        let courseData = [];
+
+        function displayListItems() {
+            const courseList = document.getElementById("courseList");
+            courseList.innerHTML = courseData.map(course => `<li>${course.department} ${course.number}: ${course.name}</li>`).join('');
+        }
+
+        function searchFunction() {
+            const departmentInput = document.getElementById("departmentInput");
+            const numberInput = document.getElementById("numberInput");
+            const departmentFilter = departmentInput.value.toUpperCase();
+            const numberFilter = numberInput.value.toUpperCase();
+
+            const filteredData = courseData.filter(course =>
+                course.department.toUpperCase().includes(departmentFilter) &&
+                course.number.toUpperCase().includes(numberFilter)
+            );
+
+            const courseList = document.getElementById("courseList");
+            courseList.innerHTML = filteredData
+                .map((course, index) => `<li><a href="course_details.html" data-index="${index}" onclick="saveIndex(event)">${course.department} ${course.number}: ${course.name}</a></li>`)
+                .join('');
+        }
+
+        function saveIndex(event) {
+            const index = event.target.getAttribute('data-index');
+            localStorage.setItem('selectedCourseIndex', index);
+        }
+
+        fetchData().then(data => {
+            courseData = data;
+            displayListItems();
+        });
+    </script>
+</body>
+
+</html>

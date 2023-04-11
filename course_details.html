@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Details</title>
+</head>
+<body>
+  <h1>Course Details</h1>
+  <div id="courseDetails">
+    <!-- Course details will be added dynamically -->
+  </div>
+
+  <script>
+    async function fetchData() {
+      const response = await fetch('course_info.json');
+      return await response.json();
+    }
+
+    function displayCourseDetails(course) {
+      const courseDetails = document.getElementById("courseDetails");
+      courseDetails.innerHTML = `
+        <h2>${course.department} ${course.number}: ${course.name}</h2>
+        <p><strong>Grade:</strong> ${course.grade}</p>
+        <p><strong>Credits:</strong> ${course.credits}</p>
+        <p><strong>Score:</strong> ${course.score}</p>
+        <p><strong>Favorite:</strong> ${course.favorite}</p>
+        <p><strong>Taken:</strong> ${course.taken}</p>
+        <p><strong>Description:</strong> ${course.description}</p>
+      `;
+    }
+
+    fetchData().then(data => {
+      const selectedIndex = localStorage.getItem('selectedCourseIndex');
+      const selectedCourse = data[selectedIndex];
+      displayCourseDetails(selectedCourse);
+    });
+  </script>
+</body>
+</html>
