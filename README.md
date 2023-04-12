@@ -6,6 +6,13 @@ update: search box页
 * link就 281实例完整 数据库里的课有简单页面 推荐课不在数据库可以看有空加链接简单示例 暂时无链接
 * see personalized recommendation按钮导向哪里？详情页（目前）还是重新给出recommended course？
 
+update: main page页(index1.html)
+
+* 功能：添加了slider，可以按箭头划动图片作为tutorial. 等其他页面也完成后截图，添加文字说明放到slider里
+
+281实例：
+* 功能：click "more" buttons, 展示更多信息. click "ignore this info", then the section disappears.
+
 ## TODO
 
 * 【数据库】可以象征性加一下别的学院的课 @xp
