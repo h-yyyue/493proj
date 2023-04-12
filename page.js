@@ -7,17 +7,17 @@ let curIndex = 0;
 // ==============================================
 $('.face1').on({
     'click': function() {
-         var src = ($(this).attr('src') === 'happyFace.png')
-            ? 'select-happy.png'
-            : 'happyFace.png';
+         var src = ($(this).attr('src') === 'img/happyFace.png')
+            ? 'img/select-happy.png'
+            : 'img/happyFace.png';
          $(this).attr('src', src);
     }
   });
   $('.face2').on({
     'click': function() {
-         var src = ($(this).attr('src') === 'sadFace.png')
-            ? 'select-sad.png'
-            : 'sadFace.png';
+         var src = ($(this).attr('src') === 'img/sadFace.png')
+            ? 'img/select-sad.png'
+            : 'img/sadFace.png';
          $(this).attr('src', src);
     }
   });
@@ -51,25 +51,25 @@ function displayListItems() {
         <p>“Really, it is a D(arden)P(aoletti) problem” -- XP</p>
         </div>
         <div class="faces">
-        <img class="face1" src="happyFace.png" height="80px"/>
-        <img class="face2" src="sadFace.png" height="80px"/>
+        <img class="face1" src="img/happyFace.png" height="80px"/>
+        <img class="face2" src="img/sadFace.png" height="80px"/>
 				</div>
 			  </div> `)
         .join('');
   }
   $('.face1').on({
     'click': function() {
-         var src = ($(this).attr('src') === 'happyFace.png')
-            ? 'select-happy.png'
-            : 'happyFace.png';
+         var src = ($(this).attr('src') === 'img/happyFace.png')
+            ? 'img/select-happy.png'
+            : 'img/happyFace.png';
          $(this).attr('src', src);
     }
   });
   $('.face2').on({
     'click': function() {
-         var src = ($(this).attr('src') === 'sadFace.png')
-            ? 'select-sad.png'
-            : 'sadFace.png';
+         var src = ($(this).attr('src') === 'img/sadFace.png')
+            ? 'img/select-sad.png'
+            : 'img/sadFace.png';
          $(this).attr('src', src);
     }
   });
@@ -103,24 +103,24 @@ fetchData().then(data => {
         <p>“Really, it is a D(arden)P(aoletti) problem” -- XP</p>
         </div>
         <div class="faces">
-        <img class="face1" src="happyFace.png" height="80px"/>
-        <img class="face2" src="sadFace.png" height="80px"/>
+        <img class="face1" src="img/happyFace.png" height="80px"/>
+        <img class="face2" src="img/sadFace.png" height="80px"/>
 				</div>
 			  </div> `)
         .join('');
         $('.face1').on({
           'click': function() {
-               var src = ($(this).attr('src') === 'happyFace.png')
-                  ? 'select-happy.png'
-                  : 'happyFace.png';
+               var src = ($(this).attr('src') === 'img/happyFace.png')
+                  ? 'img/select-happy.png'
+                  : 'img/happyFace.png';
                $(this).attr('src', src);
           }
         });
         $('.face2').on({
           'click': function() {
-               var src = ($(this).attr('src') === 'sadFace.png')
-                  ? 'select-sad.png'
-                  : 'sadFace.png';
+               var src = ($(this).attr('src') === 'img/sadFace.png')
+                  ? 'img/select-sad.png'
+                  : 'img/sadFace.png';
                $(this).attr('src', src);
           }
         });
