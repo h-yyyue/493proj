@@ -166,6 +166,16 @@ function saveIndex(event) {
         </ul>
       </section>
 
+      <section class="comment">
+        <h2>Comments</h2>
+        <button class="ignore-button">ignore this info</button>
+        <ul>
+          <li id="course_description">
+            ${course.comment}
+          </li>			
+        </ul>
+      </section>
+
       <section class="my-course-experience">
         <h2>My Course Experience</h2>
         <button class="ignore-button">ignore this info</button>
