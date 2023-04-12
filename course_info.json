@@ -154,5 +154,42 @@
         "taken" : "no",
         "description" : "Basic concepts of computer organization and hardware. Instructions executed by a processor and how to use these instructions in simple assembly-language programs. Stored-program concept. Data-path and control for multiple implementations of a processor. Performance evaluation, pipelining, caches, virtual memory, input/output.",
         "comment" : "It is like a fascinating trip to the heart of a computer, where students uncover the digital wizardry of computer organization and design, transforming raw bits and bytes into computing marvels!"
+    },
+    {
+        "department" : "WGS",
+        "number" : "220",
+        "name" : "Perspectives in Women's Health",
+        "grade" : "A",
+        "credits" : "3.0",
+        "score" : "83",
+        "favorite" : "no",
+        "taken" : "no",
+        "description" : "Perspectives in Women's Health --- A feminist perspective on concepts and issues in women's individual and aggregate health. Course will include definitions of women's health, women's health concerns, and impact of multiple factors on health.",
+        "comment" : "WGS220 at the University of Michigan is a course focused on the study of gender and sexuality, examining issues such as gender identity, sexual orientation, intersectionality, and social justice. It sounds like a fascinating course that could open up new perspectives and challenge one's preconceptions. Have fun learning and exploring!"
+    },
+    {
+        "department" : "WGS",
+        "number" : "408",
+        "name" : "Gender&Health E Asia",
+        "grade" : "A",
+        "credits" : "3.0",
+        "score" : "NA",
+        "favorite" : "no",
+        "taken" : "no",
+        "description" : "Women, Gender, and Health in East Asia: Historical and Contemporary Perspectives --- This course examines three historical themes: how different people in China, Japan, and Korea defined what it meant to be a healthy man or woman; the relative roles of male and female practitioners in health care; and how imperialism, modernization, and nation-building created new models of gender and health.",
+        "comment" : "An interesting and important course that explores the intersections of gender and health in East Asian cultures."
+    },
+    {
+        "department" : "WGS",
+        "number" : "330",
+        "name" : "Feminist Thought",
+        "grade" : "A",
+        "credits" : "3.0",
+        "score" : "81",
+        "favorite" : "no",
+        "taken" : "no",
+        "description" : "This interdisciplinary course explores multiple perspectives on gender, sexuality, feminism, and feminist theory. We will study movements and theoretical frameworks that are often defined as the 'foundations' of feminism in the U.S. Students will examine women of color, post-colonial, and transnational feminisms.",
+        "comment" : "I heard that in WGS 330 at UMICH, they're teaching students how to perfect the art of mansplaining - just kidding! It's actually a great course that explores the complexities and nuances of feminist theory, so no mansplaining allowed!"
     }
+
 ]
