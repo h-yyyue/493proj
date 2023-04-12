@@ -3,36 +3,83 @@
 <head>
 	<title>Course Selection</title>
 	<link rel="stylesheet" type="text/css" href="style2.css">
+	<script src='jquery.min.js'></script>
+	<script src='page.js'></script>
 </head>
 <body>
 	<header>
-		<h1 class="logo">My Atlas</h1>
+		<a href="index1.html"><h1 class="logo">My Atlas</h1></a>
 		<div class="profile-icon">👤</div>
   </header>
 	<div class="main-content">
-		<h1>Click courses you have taken:</h1>
-		<div class="search">
-			<input type="text" placeholder="Search...">
-			<button>Search</button>
+		<h1>Click to evaluate OR Search</h1>
+		<div class="search">		
+      <input type="text" id="departmentInput" oninput="searchFunction()" placeholder="Enter Department...">
+      <input type="text" id="numberInput" oninput="searchFunction()" placeholder="Enter Course number...">		
+			<button class = "search-button">Search</button>
 		</div>
-		<table>
-			<tr>
-				<td class="yellow-bg">EECS 281 <span class="emoji">&#128578;</span> <span class="emoji">&#128557;</span></td>
-				<td>EECS 370 <span class="emoji">&#128578;</span> <span class="emoji">&#128557;</span></td>
-			</tr>
-			<tr>
-				<td>EECS 376 <span class="emoji">&#128578;</span> <span class="emoji">&#128557;</span></td>
-				<td>EECS 482 <span class="emoji">&#128578;</span> <span class="emoji">&#128557;</span></td>
-			</tr>
-			<tr>
-				<td>EECS 477 <span class="emoji">&#128578;</span> <span class="emoji">&#128557;</span></td>
-				<td>EECS 490 <span class="emoji">&#128578;</span> <span class="emoji">&#128557;</span></td>
-			</tr>
-			<tr>
-				<td>EECS 493 <span class="emoji">&#128578;</span> <span class="emoji">&#128557;</span></td>
-				<td>EECS 485 <span class="emoji">&#128578;</span> <span class="emoji">&#128557;</span></td>
-			</tr>
-		</table>
+		
+		
+		<div id="recommend-course">
+			<h1>Personalized recommended course for you:</h1>
+			<div class="course">
+				<div class="course-text">
+					<a href="index4.html">EECS 281: Data Structures and Algorithms</a>
+					<p>"Really, it is a D(arden)P(aoletti) problem" -- XP</p>
+				</div>
+				<div class="faces">
+					<img class="face1" src="happyFace.png" height="80px"/>
+					<img class="face2" src="sadFace.png" height="80px"/>
+				</div>
+			</div>
+			<div class="course">
+				<div class="course-text">
+					<a>EECS 482</a>
+					<p>"View the world from a brand new perspective!"  -- XP</p>
+				</div>
+				<div class="faces">
+					<img class="face1" src="happyFace.png" height="80px"/>
+					<img class="face2" src="sadFace.png" height="80px"/>
+				</div>
+			</div>
+			<div class="course">
+				<div class="course-text">
+					<a>EECS 370</a>
+					<p>"Courses after this will only be better."  -- MTT</p>
+				</div>
+				<div class="faces">
+					<img class="face1" src="happyFace.png" height="80px"/>
+					<img class="face2" src="sadFace.png" height="80px"/>
+				</div>
+			</div>
+			<div class="course">
+				<div class="course-text">
+					<a>EECS 412</a>
+					<p>"Today's ice breaking question is..."  -- Jennifer</p>
+				</div>
+				<div class="faces">
+					<img class="face1" src="happyFace.png" height="80px"/>
+					<img class="face2" src="sadFace.png" height="80px"/>
+				</div>
+			</div>
+			<div class="course">
+				<div class="course-text">
+					<a>EECS 493</a>
+					<p>"Cool!"  -- Anonymous student</p>
+				</div>
+				<div class="faces">
+					<img class="face1" src="happyFace.png" height="80px"/>
+					<img class="face2" src="sadFace.png" height="80px"/>
+				</div>
+			</div>
+		</div>
+		
+		<ul id="courseList">
+			
+			<!-- Course items will be added dynamically -->
+	  </ul>
 	</div>
+
+	<a href="index4.html" class="custom-btn"> See Personalized Recommendations! </a>
 </body>
 </html>
