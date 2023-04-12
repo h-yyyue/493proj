@@ -94,5 +94,41 @@
         "taken" : "no",
         "description" : "This course is an introduction to matrices and linear algebra, with an emphasis on concepts and problem solving. It is particularly designed for students who are planning to take a course in linear programming or computer science.",
         "comment" : "It is like a rollercoaster ride through the multidimensional world of linear algebra, where students buckle up and enjoy the thrilling journey of vector spaces, eigenvalues, and mind-bending transformations!"
+    },
+    {
+        "department" : "WGS",
+        "number" : "304",
+        "name" : "Gender and Immigration: Identity, Race, and Place",
+        "grade" : "A-",
+        "credits" : "3.0",
+        "score" : "95",
+        "favorite" : "no",
+        "taken" : "no",
+        "description" : "Refugees, migrants, immigrants, diaspora groups, and transnational actors are all terms that describe people who undertake different acts of mobility or travel across borders. But how are these terms different? This course focuses on these various acts of mobility (travel) to show how they are labeled differently under different political and social circumstances. We examine the gendered cultural and political meanings people and governments give to mobility, border crossing, and displacement in this significant age of globalization, transnational mobility, and search of refuge. We will examine the meanings of travel and border crossing in relation to popular concepts such as refugee-ness, diaspora, and transnationalism. Have the meanings of these terms been useful in understanding the social constructions of gender identities, race, ethnicity, xenophobia, and even health and reproduction? We will particularly explore how questions of power, race, and class intersect to shape refugees and immigrants' daily struggles for justice and demands of inclusion in the rubrics of both national and transnational imagined communities. How do refugees and immigrants attempt to create and imagine their own social world with reference to their new locations and their homelands? And how their imaginations are interrupted by complex socio-economic and political realities? Our readings and discussion will focus on cultural and theoretical perspectives from the social sciences, specifically anthropology, history, literature, and political science. And we will take as examples the ethnographies and narratives of immigrants from different parts of the world, specifically Africa, the Middle East Asia, and Latin America.",
+        "comment" : "It is like an eye-opening journey through the pages of a living history book, where students delve into the fascinating world of feminist thought and activism, sparking conversations and challenging the status quo with every turn!"
+    },
+    {
+        "department" : "EECS",
+        "number" : "493",
+        "name" : "User Interface Development",
+        "grade" : "A",
+        "credits" : "4.0",
+        "score" : "78",
+        "favorite" : "no",
+        "taken" : "no",
+        "description" : "Concepts and techniques for designing computer system user interfaces to be easy to learn and use, with an introduction to their implementation. Task analysis, design of functionality, display and interaction design, and usability evaluation. Interface programming using an object-oriented application framework. Fluency in a standard object-oriented programming language is assumed.",
+        "comment" : "It is like a playground for aspiring app designers, where students dive into the fun-filled world of UI/UX, creating digital masterpieces that'll make users swoon with delight and come back for more!"
+    },
+    {
+        "department" : "BIOINF",
+        "number" : "463",
+        "name" : "Mathematical Modeling in Biology",
+        "grade" : "A-",
+        "credits" : "3.0",
+        "score" : "68",
+        "favorite" : "no",
+        "taken" : "no",
+        "description" : "An introduction to the use of continuous and discrete differential equations in the biological sciences. Modeling in biology, physiology and medicine.",
+        "comment" : "It is like a thrilling detective adventure, where students turn into bioinformatics sleuths, using cutting-edge computational tools to unravel the mysteries hidden within the twists and turns of DNA sequences!"
     }
 ]
