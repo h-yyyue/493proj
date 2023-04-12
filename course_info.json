@@ -130,5 +130,29 @@
         "taken" : "no",
         "description" : "An introduction to the use of continuous and discrete differential equations in the biological sciences. Modeling in biology, physiology and medicine.",
         "comment" : "It is like a thrilling detective adventure, where students turn into bioinformatics sleuths, using cutting-edge computational tools to unravel the mysteries hidden within the twists and turns of DNA sequences!"
+    },
+    {
+        "department" : "EECS",
+        "number" : "482",
+        "name" : "Introduction to Operating Systems",
+        "grade" : "B+",
+        "credits" : "4.0",
+        "score" : "88",
+        "favorite" : "no",
+        "taken" : "no",
+        "description" : "Operating system design and implementation: multi-tasking; concurrency and synchronization; inter-process communication; deadlock; scheduling; resource allocation; memory and storage management; input-output; file systems; protection and security. Students write several substantial programs dealing with concurrency and synchronization in a multi-task environment, with file systems, and with memory management.",
+        "comment" : "It is like a backstage pass to the computer's inner workings, where students become operating system maestros, orchestrating symphonies of processes and resources that keep our digital world humming in harmony!"
+    },
+    {
+        "department" : "EECS",
+        "number" : "370",
+        "name" : "Introduction to Computer Organization",
+        "grade" : "B+",
+        "credits" : "4.0",
+        "score" : "63",
+        "favorite" : "no",
+        "taken" : "no",
+        "description" : "Basic concepts of computer organization and hardware. Instructions executed by a processor and how to use these instructions in simple assembly-language programs. Stored-program concept. Data-path and control for multiple implementations of a processor. Performance evaluation, pipelining, caches, virtual memory, input/output.",
+        "comment" : "It is like a fascinating trip to the heart of a computer, where students uncover the digital wizardry of computer organization and design, transforming raw bits and bytes into computing marvels!"
     }
 ]
