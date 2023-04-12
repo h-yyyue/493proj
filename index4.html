@@ -2,10 +2,10 @@
 <html>
 <head>
 	<title>EECS 281 Course Information</title>
-	<script src='jquery.min.js'></script>
-  <script src='page.js'></script>
+	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+	<script src='script4.js'></script>
 	<link rel="stylesheet" type="text/css" href="style4.css">
-
+	
 </head>
 <body>
 	<header>
@@ -30,8 +30,8 @@
 				</div>
 			  </div>
 			  <div class="dropdown">
-				<button class="dropbtn" onmouseover="favClass()">Favorite</button>
-				<div class="dropdown-content fav-dropdown">
+				<button class="dropbtn">Favorite</button>
+				<div class="dropdown-content">
 				  
 				  <a href="#">Option 1</a>
 				  <a href="#">Option 2</a>
@@ -43,39 +43,58 @@
   	</header>
 	<div class="head">
 		<div class="course" data-course="EECS 281">
-			<h1>
-				<span class="course-name">EECS 281</span>
-				<button class="favorite-button">⭐</button>
-			</h1>
-		</div>
+			<h1><span class="course-name">EECS 281</span>
+				<button class="favorite-button">⭐</button></h1>
+		  </div>
 
 	</div>
 	<section class="resources">
 		<h2>Resources</h2>
 		<button class="ignore-button">ignore this info</button>
 		<ul>
-			<li><strong>course videos: </strong><a href="https://www.youtube.com/c/EECS281">EECS 281 - YouTube</a>    <button class="button_more">More</button></li>
-			<li><strong>suggestions from previous students: </strong> start early on projects!   <button class="button_more">More</button></li>
-			<li><strong>resources: </strong> <a href="https://uhs.umich.edu/">https://uhs.umich.edu/</a>    <button class="button_more">More</button></li>
+			<li><strong>course videos: </strong>
+				<span class="shownInfo"><a href="https://www.youtube.com/c/EECS281">EECS 281 - YouTube</a> </span>
+				<button class="button_more">More</button>
+				<div class="hiddenInfo">
+					<p><a href="https://www.youtube.com/c/EECS281">EECS 281 - YouTube</a> </p>
+					<p><a href="https://www.youtube.com/watch?v=aFqqFeYArLU">EECS 281 - Crash Course</a></p>
+				</div></li>			
+			<li><strong>suggestions from previous students: </strong> <span class="shownInfo">Start early on projects! </span>  <button class="button_more">More</button>
+				<div class="hiddenInfo">
+					<p>Start early on projects!</p>
+					<p>Practice with sample exams before mid and final.</p>
+				</div>
+			</li>
+			<li><strong>other resources: </strong> <span class="shownInfo"><a href="https://eecs281staff.github.io/eecs281.org/">EECS 281 - Course Website</a></span>    <button class="button_more">More</button>
+				<div class="hiddenInfo">
+					<p><a href="https://eecs281staff.github.io/eecs281.org/">EECS 281 - Course Website</a> </p>
+					<p><a href="https://uhs.umich.edu/stressresources">Resources for Stress and Mental Health</a> </p>
+				</div>
+			</li>
 		</ul>
 	</section>
 	<section class="professor-ratings">
 		<h2>Rate of Professors</h2>
 		<button class="ignore-button">ignore this info</button>
 		<ul>
-			<li><strong>Darden, Marcus: </strong>Preparedness 97%; Clarity 96%; Respect 96%  <button class="button_more">More</button></li>
-			<li><strong>Paoletti, David: </strong>Preparedness 96%; Clarity 94%; Respect 96%   <button class="button_more">More</button></li>
+			<li><strong>Darden, Marcus: </strong>Preparedness 97%; Clarity 96%; Respect 96%  </li>
+			<li><strong>Paoletti, David: </strong>Preparedness 96%; Clarity 94%; Respect 96%   </li>
 		</ul>
 	</section>
 	<section class="recommendation">
 		<h2>Recommendation</h2>
 		<button class="ignore-button">ignore this info</button>
 		<ul>
-			<li><strong>relevant UM courses: </strong>EECS 493, EECS 482, EECS 494   <button class="button_more">More</button></li>
-			<li><strong>relevant public courses: </strong><a href="https://ocw.mit.edu/courses/6-851-advanced-data-structures-spring-2012/">Advanced Data Structures | Electrical Engineering and Computer Science | MIT OpenCourseWare</a>    <button class="button_more">More</button></li>
+			<li><strong>relevant UM courses: </strong>EECS 493, EECS 482, EECS 494   </li>
+			<li><strong>relevant public courses: </strong><span class="shownInfo"><a href="https://ocw.mit.edu/courses/6-851-advanced-data-structures-spring-2012/">MIT - Data Structures</a></span>    <button class="button_more">More</button>
+				<div class="hiddenInfo">
+					<p><a href="https://ocw.mit.edu/courses/6-851-advanced-data-structures-spring-2012/">MIT - Data Structures</a></p>
+					<p><a href="https://www.coursera.org/learn/data-structures/">Coursera - Data Structures</a></p>
+					<p><a href="https://pll.harvard.edu/subject/data-structures">Harvard - Data Structures</a></p>
+				</div>
+			</li>
 		</ul>
 	</section>
-	<button class="moreinfo">More info...</button>
 
 	<script>
 

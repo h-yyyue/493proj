@@ -6,7 +6,6 @@
 
 body {
 	background-color: #b2d9ff;
-	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
@@ -118,7 +117,6 @@ h1 {
 
 
 section {
-	
 	background-color: #FFFFFF;
 	padding: 20px;
 	margin: 20px;
@@ -148,17 +146,7 @@ li {
 	background-color: lightblue;
 }
 
-.moreinfo {
-	font-size: 20px;
-	padding: 10px 20px;
-	margin: 20px;
-	border-radius: 5px;
-	background-color: #c3f6da;
-	color: rgb(59, 125, 248);
-	border: none;
-	cursor: pointer;
-	box-shadow: 0px 0px 5px rgba(0, 1, 8, 0.25);
-}
+
 
 
 
@@ -173,4 +161,10 @@ li {
   .favorite-button.favorited {
 	background-color: yellow;
   }
+  
+.hiddenInfo {
+	display: none;
+} 
+
+
   
