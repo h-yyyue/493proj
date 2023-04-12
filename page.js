@@ -24,7 +24,7 @@ $('.face1').on({
 // Main
 $(document).ready( function() {
   console.log("Ready!");
-  
+   
   
   
   });
@@ -150,14 +150,59 @@ function saveIndex(event) {
     if(document.getElementById("courseDetails")){
       const courseDetails = document.getElementById("courseDetails");
       courseDetails.innerHTML = `
-      <h2>${course.department} ${course.number}: ${course.name}</h2>
-      <p><strong>Grade:</strong> ${course.grade}</p>
-      <p><strong>Credits:</strong> ${course.credits}</p>
-      <p><strong>Score:</strong> ${course.score}</p>
-      <p><strong>Favorite:</strong> ${course.favorite}</p>
-      <p><strong>Taken:</strong> ${course.taken}</p>
-      <p><strong>Description:</strong> ${course.description}</p>
+
+      <div class="head">
+        <div class="course">
+         <h1><span class="course-name">${course.department} ${course.number}: ${course.name}</span></h1>
+        </div>
+      </div>
+      <section class="description">
+        <h2>Description</h2>
+        <button class="ignore-button">ignore this info</button>
+        <ul>
+          <li id="course_description">
+            ${course.description}
+          </li>			
+        </ul>
+      </section>
+
+      <section class="my-course-experience">
+        <h2>My Course Experience</h2>
+        <button class="ignore-button">ignore this info</button>
+        <ul>
+          <li><strong>Credits: </strong> ${course.credits}</li>
+          <li><strong>Grade: </strong> ${course.grade}</li>
+          <li><strong>Score: </strong> ${course.score}</li>
+          <li><strong>Favorite: </strong> ${course.favorite}</li>
+          <li><strong>Taken: </strong> ${course.taken}</li>
+        </ul>
+      </section> 
+      <button class="moreinfo">More info...</button>
+
     `;
+
+    // "more" buttons
+    $('.button_more').click(function() {
+    shown = $(this).siblings('.shownInfo');
+    hidden = $(this).siblings('.hiddenInfo');
+    $(this).remove();
+    shown.remove();
+    hidden.css("display", "inline");
+   });  
+
+    // ignore this information
+    $('.ignore-button').click(function() {
+    $(this).parent().hide();
+    });
+    // ignore recommendation panel
+    $('.ignore-button-recommend').click(function() {
+    $(this).parent().hide();
+   });  
+    // "more information" button
+    $('.moreinfo').click(function() {
+    $("section").show();
+        
+    }); 
     }
   }
 

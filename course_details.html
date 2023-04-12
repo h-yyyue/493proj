@@ -6,11 +6,46 @@
   <script src='jquery.min.js'></script>
   <script src='page.js'></script>
   <title>Course Details</title>
+  <link rel="stylesheet" type="text/css" href="style_courseDetails.css">
 </head>
 <body>
+	<header>
+    <div class="logo">
+      <a href="index1.html">My Atlas</a>
+    </div>
+    <div class="menu">
+      <div class="dropdown">
+      <button class="dropbtn">Taken</button>
+      <div class="dropdown-content">
+        <a href="index4.html">EECS 281</a>
+        <a href="#">Option 2</a>
+        <a href="#">Option 3</a>
+      </div>
+      </div>
+      <div class="dropdown">
+      <button class="dropbtn">Taking</button>
+      <div class="dropdown-content">
+        <a href="#">Option 1</a>
+        <a href="#">Option 2</a>
+        <a href="#">Option 3</a>
+      </div>
+      </div>
+      <div class="dropdown">
+      <button class="dropbtn">Favorite</button>
+      <div class="dropdown-content">
+        
+        <a href="#">Option 1</a>
+        <a href="#">Option 2</a>
+        <a href="#">Option 3</a>
+      </div>
+      </div>
+    </div>
+      <div class="profile-icon">👤</div> 
+  </header>  
   <h1>Course Details</h1>
   <div id="courseDetails">
     <!-- Course details will be added dynamically -->
+    
   </div>
   <button class="star-button" onclick="saveClass()">⭐</button>
   <button class="dropbtn" onmouseover="favClass()">Favorite</button>
