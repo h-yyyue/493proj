@@ -48,7 +48,7 @@ function displayListItems() {
         .map((course, index) => `<div class="course">
         <div class="course-text">
         <a href="course_details.html" data-index="${index}" onclick="saveIndex(event)">${course.department} ${course.number}: ${course.name}</a>
-        <p>“Really, it is a D(arden)P(aoletti) problem” -- XP</p>
+        <p>"Really, it is a D(arden)P(aoletti) problem" -- XP</p>
         </div>
         <div class="faces">
         <img class="face1" src="img/happyFace.png" height="80px"/>
@@ -100,7 +100,7 @@ fetchData().then(data => {
         .map((course, index) =>  `<div class="course">
         <div class="course-text">
         <a href="course_details.html" data-index="${index}" onclick="saveIndex(event)">${course.department} ${course.number}: ${course.name}</a>
-        <p>“Really, it is a D(arden)P(aoletti) problem” -- XP</p>
+        <p>"Really, it is a D(arden)P(aoletti) problem" -- XP</p>
         </div>
         <div class="faces">
         <img class="face1" src="img/happyFace.png" height="80px"/>
