@@ -13,8 +13,17 @@ $(document).ready(function() {
 
   // ignore this information
   $('.ignore-button').click(function() {
-    $(this).parent().remove();
+    $(this).parent().hide();
   });
+  // ignore recommendation panel
+  $('.ignore-button-recommend').click(function() {
+    $(this).parent().hide();
+  });  
+  // "more information" button
+  $('.moreinfo').click(function() {
+    $("section").show();
+        
+  });  
 });
 
 

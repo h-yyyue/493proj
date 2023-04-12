@@ -148,8 +148,6 @@ li {
 
 
 
-
-
   .favorite-button {
 	font-size: inherit;
 	border: none;
@@ -166,5 +164,36 @@ li {
 	display: none;
 } 
 
-
+.moreinfo {
+	font-size: 20px;
+	padding: 10px 20px;
+	margin: 20px;
+	border-radius: 5px;
+	background-color: #c3f6da;
+	color: rgb(59, 125, 248);
+	border: none;
+	cursor: pointer;
+	box-shadow: 0px 0px 5px rgba(0, 1, 8, 0.25);
+}
   
+#course_description {
+	font-size: 18px;
+
+	
+}
+
+.recommendation {
+	display: none;
+	
+
+}
+.ignore-button-recommend {
+	background-color: #FFA07A;
+	color: #FFFFFF;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	float: right;
+}
+
+
