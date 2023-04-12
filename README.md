@@ -1,26 +1,23 @@
-# 493proj
+# Welcome to *My Atlas*!
 
-update: search box页
+To fully enjoy *My Atlas*,  it is recommended to create a simple server to host it. One way to do this is to run the following command in the directory where all of the necessary files are located:
 
-* 功能：click the face, it will change to indicate that you have selected it. click again to recover
-* link就 281实例完整 数据库里的课有简单页面 推荐课不在数据库可以看有空加链接简单示例 暂时无链接
-* see personalized recommendation按钮导向哪里？详情页（目前）还是重新给出recommended course？
+```bash
+python3 -m http.server
+```
 
-update: main page页(index1.html)
+Then open http://localhost:8000/index1.html in your browser.
 
-* 功能：添加了slider，可以按箭头划动图片作为tutorial. 等其他页面也完成后截图，添加文字说明放到slider里
+This will start a basic web server, allowing you to access *My Atlas* through a web browser and take advantage of all its features.
 
-281实例：
-* 功能：click "more" buttons, 展示更多信息. click "ignore this info", then the section disappears. click "more info...", then all the panels will appear.
+## Notes
 
-## TODO
+To access our recommended courses and search for courses that interest you, please refer to the instructions on the first web page.
 
-* 【数据库】可以象征性加一下别的学院的课 @xp
-* 【数据库】加comment便于在搜索页显示 @xp
-* 搜索页课名补全，引号有的乱码 @谁有空修一下
-* 详情页星星用图代替 @谁有空修一下 
-* 登录表示人头像用图片代替 @谁有空修一下
-* 顶部栏举例子加链接 移到一个不会挡住任意一页标题的地方 每一页都部署 @mtt
-* 详情页的底部放搜索框 一些搬运 @我自己
-* 详情页和首页靠嫣然了【鞠躬】
-* javascript有点少有空有想法可以加++++
+Currently, our demo allows you to experience as a user who has already logged in. Your token courses, currently taking courses, and interested courses will be saved in the top panel.
+
+You can express your attitudes towards courses you have taken by clicking on the corresponding faces, allowing *My Atlas* for personalized recommendations.
+
+As a demo, the course information page for EECS281 is fully built. Please feel free to navigate through the page. Some of the other course pages are also simply built to showcase our search function.
+
+You can design the course information page by hiding information that does not interest you. Additionally, by clicking on the "More info..." button, you can find more details on a particular course.

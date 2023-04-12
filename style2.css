@@ -10,9 +10,69 @@ body {
 	flex-direction: column;
 	align-items: center;
 }
+.logo {
+    float: left;
+  }
+  
+  .logo a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+  }
+  
+  .menu {
+    float: left;
+    overflow: hidden;
+    text-align: left;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    width:fit-content;
+	left:20px;
+  }
+  
+  .dropbtn {
+    color: white;
+    background-color: #86a1c99f;
+    font-size: 16px;
+    border:#c0d2ee9f;
+    outline: #c0d2ee9f;
+    padding: 16px 18px;
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #9bb1d39f;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 19px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
 
 header {
-	z-index: 1;
 	position: fixed;
 	top:0;
 	left: 0;
@@ -24,22 +84,29 @@ header {
 	height: 60px;
 	padding: 20px;
 	background-color: #a2c3e7;
-	margin-bottom: 0;
+	z-index: 2;
 }
-
 
 .logo {
 	display: inline;
 	font-family: 'Brush Script MT', cursive;
 	font-size: 2rem;
 	margin-left: 20px;
-	margin-bottom: 0px;
 }
 
 .profile-icon {
 	font-size: 2rem;
 	margin-right: 20px;
+	margin-left: 80px;
 	cursor: pointer;
+}
+
+.head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	margin-top: 70px;
 }
 
 .main-content {
@@ -101,6 +168,7 @@ input[type="text"] {
 	border-radius: 50px;
 	border: none;
 	cursor: pointer;
+	z-index: 2;
   }
   
   .custom-btn::before {
@@ -175,7 +243,7 @@ input[type="text"] {
 	}
 	 
 	.faces img {
-		z-index: auto;
+		z-index: 1;
 		margin-bottom: -20px;
 		position: sticky;
 		right: inherit;
