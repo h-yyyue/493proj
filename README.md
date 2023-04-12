@@ -11,7 +11,7 @@ update: main page页(index1.html)
 * 功能：添加了slider，可以按箭头划动图片作为tutorial. 等其他页面也完成后截图，添加文字说明放到slider里
 
 281实例：
-* 功能：click "more" buttons, 展示更多信息. click "ignore this info", then the section disappears.
+* 功能：click "more" buttons, 展示更多信息. click "ignore this info", then the section disappears. click "more info...", then all the panels will appear.
 
 ## TODO
 
