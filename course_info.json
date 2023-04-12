@@ -8,7 +8,8 @@
         "score": "83",
         "favorite": false,
         "taken": "no",
-        "description": "Fundamental concepts and skills of programming in a high level language. Flow of control: selection, iteration, subprograms. Data structures: strings, arrays, records, lists, tables. Algorithms using selection and iterations (decision making, finding maxima/minima, searching, sorting, simulation, etc.). Good program design, structure, and style are emphasized. Testing and debugging. Not intended for Engineering students (who should take ENGR 101), nor for CS majors who qualify for EECS 280."
+        "description": "Fundamental concepts and skills of programming in a high level language. Flow of control: selection, iteration, subprograms. Data structures: strings, arrays, records, lists, tables. Algorithms using selection and iterations (decision making, finding maxima/minima, searching, sorting, simulation, etc.). Good program design, structure, and style are emphasized. Testing and debugging. Not intended for Engineering students (who should take ENGR 101), nor for CS majors who qualify for EECS 280.",
+        "comment" : "Where even the most technophobic students can overcome their fear of code and become programming ninjas in no time, all while having a blast!"
     },
     {
         "department": "EECS",
@@ -19,7 +20,8 @@
         "score": "67",
         "favorite": false,
         "taken": "no",
-        "description": "Discover Computer Science --- Introduction to basic CS concepts (variables, conditionals, loops, functions) using an introductory programming language, such a Python. Students interact with researchers and computing professionals to learn about real-world, interdisciplinary applications of CS. Intended for students without prior programming experience to (optionally take prior to EECS 183 or ENGR 101."
+        "description": "Discover Computer Science --- Introduction to basic CS concepts (variables, conditionals, loops, functions) using an introductory programming language, such a Python. Students interact with researchers and computing professionals to learn about real-world, interdisciplinary applications of CS. Intended for students without prior programming experience to (optionally take prior to EECS 183 or ENGR 101.",
+        "comment" : "It is like the appetizer before a coding feast, giving you a tasty introduction to programming concepts that'll leave you hungry for more!"
     },
     {
         "department": "EECS",
@@ -30,7 +32,8 @@
         "score": "95",
         "favorite": false,
         "taken": "no",
-        "description": "Topics of current interest selected by the faculty."
+        "description": "Topics of current interest selected by the faculty.",
+        "comment" : "It is like a rollercoaster ride through the world of first-year computer science projects, where students buckle up and learn teamwork, problem-solving, and programming in one thrilling semester!"
     },
     {
         "department": "EECS",
@@ -41,7 +44,8 @@
         "score": "59",
         "favorite": "no",
         "taken": "no",
-        "description": "Electrical Engineering Systems Design I --- Gain a systems engineering perspective of electrical engineering centered around a design competition to address a societally-relevant challenge. Apply electrical engineering concepts in circuits, computing, control, sensors, optics, power, signal processing, and wireless communications to a system such as a robot and adapt the system to achieve competition objectives within defined engineering constraints. Projects are overseen and graded by faculty and may also involve mentoring by representatives from industrial, governmental and/or non-profit organizations."
+        "description": "Electrical Engineering Systems Design I --- Gain a systems engineering perspective of electrical engineering centered around a design competition to address a societally-relevant challenge. Apply electrical engineering concepts in circuits, computing, control, sensors, optics, power, signal processing, and wireless communications to a system such as a robot and adapt the system to achieve competition objectives within defined engineering constraints. Projects are overseen and graded by faculty and may also involve mentoring by representatives from industrial, governmental and/or non-profit organizations.",
+        "comment" : "It is where computer wizards-in-training can uncover the magical world of electronic circuits, conjuring up a deeper understanding of how the tiny building blocks of technology work together!"
     },
     {
         "department": "EECS",
@@ -52,7 +56,8 @@
         "score" : "86",
         "favorite": "no",
         "taken": "no",
-        "description": "Designed to teach the essentials of using a computer effectively. Topics covered include shells, environment, scripting, Makefiles, compilers, debugging tools, and version control."
+        "description": "Designed to teach the essentials of using a computer effectively. Topics covered include shells, environment, scripting, Makefiles, compilers, debugging tools, and version control.",
+        "comment" : "It is like a wild treasure hunt, where eager students dig deep into discrete mathematics, unearthing gems of logic and problem-solving techniques that will power their computer science journey!"
     },
     {
         "department" : "EECS",
@@ -63,7 +68,8 @@
         "score" : "39",
         "favorite" : "no",
         "taken" : "no",
-        "description" : "Introduction to the mathematical foundations of computer science. Topics covered include: prepositional and predicate logic, set theory, function and relations, growth of functions and asymptotic notation, introduction to algorithms, elementary combinatorics, and graph theory, and discrete probability theory."
+        "description" : "Introduction to the mathematical foundations of computer science. Topics covered include: prepositional and predicate logic, set theory, function and relations, growth of functions and asymptotic notation, introduction to algorithms, elementary combinatorics, and graph theory, and discrete probability theory.",
+        "comment" : "It is like a secret decoder ring for computer scientists, unlocking the mysteries of discrete math and logic that form the backbone of algorithms, making even the toughest problems seem like child's play!"
     },
     {
         "department" : "EECS",
@@ -74,6 +80,19 @@
         "score" : "66",
         "favorite" : "no",
         "taken" : "no",
-        "description" : "Basic Concepts of voltage and current; Kirchhoff's voltage and current laws; Ohm's law; voltage and current sources; Thevenin and Norton equivalent circuits; DC and low frequency active circuits using operational amplifiers, diodes, and transistors; small signal analysis; energy and power. Time-and frequency-domain analysis of RLC circuits. Basic passive and active electronic filters. Laboratory experience with electrical signals and circuits."
+        "description" : "Basic Concepts of voltage and current; Kirchhoff's voltage and current laws; Ohm's law; voltage and current sources; Thevenin and Norton equivalent circuits; DC and low frequency active circuits using operational amplifiers, diodes, and transistors; small signal analysis; energy and power. Time-and frequency-domain analysis of RLC circuits. Basic passive and active electronic filters. Laboratory experience with electrical signals and circuits.",
+        "comment" : "It is where students morph into electrical engineering superheroes, using their newfound powers to conquer the captivating world of circuits, signals, and systems in a single bound!"
+    },
+    {
+        "department" : "MATH",
+        "number" : "214",
+        "name" : "Applied Linear Algebra",
+        "grade" : "B+",
+        "credits" : "4.0",
+        "score" : "43",
+        "favorite" : "no",
+        "taken" : "no",
+        "description" : "This course is an introduction to matrices and linear algebra, with an emphasis on concepts and problem solving. It is particularly designed for students who are planning to take a course in linear programming or computer science.",
+        "comment" : "It is like a rollercoaster ride through the multidimensional world of linear algebra, where students buckle up and enjoy the thrilling journey of vector spaces, eigenvalues, and mind-bending transformations!"
     }
 ]
