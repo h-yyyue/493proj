@@ -147,7 +147,7 @@ button.button-green {
   font-family: 'Calibri', Arial, sans-serif;
   box-shadow: 0px 0px 10px rgba(2, 14, 37, 0.25);
   left: 40%;
-  background-color: #acf7cc;
+  background-color: #75c6c5;
 }
 
 
@@ -185,7 +185,8 @@ button.button-green {
 	object-fit: cover;
 	transition: opacity 0.5s ease-in-out;
   margin-top: 50px;
-  border: 6px dashed blue;
+  border: 6px dashed rgb(101, 101, 251);
+  border-radius: 10px;
   }
 
   .slider-image:not(:first-child) {
