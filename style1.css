@@ -173,6 +173,24 @@ button.button-green {
   font-style: italic;
 }
 
+.tutorial {
+  margin-top: 20px;
+  font-size: 20px;
+  max-width: 450px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-style: italic;  
+}
+
+.description-text {
+  font-size: 20px;
+  max-width: 450px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-style: italic;
+}
 
 
 .down {
@@ -182,7 +200,7 @@ button.button-green {
 
 .slider-image {
 	position: absolute;
-	width: 65%;
+	
 	height: 80%;
 	object-fit: cover;
 	transition: opacity 0.5s ease-in-out;
