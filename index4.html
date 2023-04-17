@@ -18,8 +18,9 @@
 			  <div class="dropdown">
 				<button class="dropbtn">Taken</button>
 				<div class="dropdown-content">
-				  <a href="index4.html">EECS 281</a>
-			  <a href="course_details.html" data-index=4 onclick="saveIndex(event)">EECS 201</a>
+					<a href="course_details.html" data-index=2 onclick="saveIndex(event)">EECS 198</a>
+					<a href="course_details.html" data-index=0 onclick="saveIndex(event)">EECS 183</a>
+					<a href="course_details.html" data-index=3 onclick="saveIndex(event)">EECS 200</a>
 			
 				  
 				</div>
@@ -27,16 +28,15 @@
 			  <div class="dropdown">
 				<button class="dropbtn">Taking</button>
 				<div class="dropdown-content">
-				  <a href="course_details.html" data-index=2 onclick="saveIndex(event)">EECS 198</a>
-				<a href="course_details.html" data-index=0 onclick="saveIndex(event)">EECS 183</a>
-				<a href="course_details.html" data-index=3 onclick="saveIndex(event)">EECS 200</a>
+					<a href="index4.html">EECS 281</a>
+			  	<a href="course_details.html" data-index=4 onclick="saveIndex(event)">EECS 201</a>
 				</div>
 			  </div>
 			  <div class="dropdown">
 				<button class="dropbtn">Favorite</button>
 				<div class="dropdown-content">
 				  
-					<a href="course_details.html" data-index=5 onclick="saveIndex(event)">EECS 201</a>
+					<a href="course_details.html" data-index=5 onclick="saveIndex(event)">EECS 203</a>
 					<a href="course_details.html" data-index=6 onclick="saveIndex(event)">EECS 215</a>
 				</div>
 			  </div>
@@ -49,6 +49,7 @@
 		<div class="course0" data-course="EECS 281">
 			<h1><span class="course-name">EECS 281 Data Structures and Algorithms</span>
 				<img src="img/star.png" class="star" width="60px"/>
+				<img src="img/star.png" class="star moves" id="moves" width="60px"/>
 			</h1>
 		</div>
 
@@ -113,13 +114,16 @@
 			</li>
 		</ul>
 	</section>
-	<button class="moreinfo">More info...</button>
+	<div class="function-button">
+		<button class="moreinfo">More info...</button>
+	  <a class="back-button" href="index2.html">Back to Recommendation Page</a>
+	</div>
   <div class="search-block">
 		<div class="search">		
 			<input type="text" id="departmentInput" oninput="searchFunction()" placeholder="Enter Department...">
 			<input type="text" id="numberInput" oninput="searchFunction()" placeholder="Enter Course Number...">		
 			<button class = "search-button">Search</button>
-			<a class="back-button" href="index2.html">See Recommendations</a>
+			
 		</div>
 		<ul id="courseList">
 			<!-- Course items will be added dynamically -->

@@ -7,25 +7,52 @@ let curIndex = 0;
 // ==============================================
 $('.face1').on({
     'click': function() {
-         var src = ($(this).attr('src') === 'img/happyFace.png')
-            ? 'img/select-happy.png'
-            : 'img/happyFace.png';
-         $(this).attr('src', src);
+      var sadface = $('.face2');
+        if ($(this).attr('src') === 'img/happyFace.png') {
+          $(this).attr('src', 'img/select-happy.png');
+          $(this).parent().find(sadface).attr('src', 'img/sadFace.png');
+        }else{
+          $(this).attr('src', 'img/happyFace.png');
+        }
     }
   });
   $('.face2').on({
     'click': function() {
-         var src = ($(this).attr('src') === 'img/sadFace.png')
-            ? 'img/select-sad.png'
-            : 'img/sadFace.png';
-         $(this).attr('src', src);
+      var happyface = $('.face1');
+      if ($(this).attr('src') === 'img/sadFace.png') {
+        $(this).attr('src', 'img/select-sad.png');
+        $(this).parent().find(happyface).attr('src', 'img/happyFace.png');
+      }else{
+        $(this).attr('src', 'img/sadFace.png');
+      }
     }
   });
+
+
 // Main
 $(document).ready( function() {
   console.log("Ready!");
-   
-  
+  let movestar = $('#moves');
+  $('.moves').hide();
+  $('.star').click(function() {
+    if($(this).css("opacity") != 0.4){
+      movestar.css('left', 700);
+      movestar.css('top', 80);
+      $('.moves').show();
+        setInterval( function() {
+          console.log("star clicked");
+          let posl = parseInt(movestar.css('left')) + 11 ;
+          let posu = parseInt(movestar.css('top')) - 8 ;
+          if (posu>5) {
+            movestar.css('left', posl);
+            movestar.css('top', posu);
+          }else{
+            $('.moves').hide();
+          }
+      }, 100);
+    }
+    
+  });
   
   });
 
@@ -59,18 +86,24 @@ function displayListItems() {
   }
   $('.face1').on({
     'click': function() {
-         var src = ($(this).attr('src') === 'img/happyFace.png')
-            ? 'img/select-happy.png'
-            : 'img/happyFace.png';
-         $(this).attr('src', src);
+      var sadface = $('.face2');
+        if ($(this).attr('src') === 'img/happyFace.png') {
+          $(this).attr('src', 'img/select-happy.png');
+          $(this).parent().find(sadface).attr('src', 'img/sadFace.png');
+        }else{
+          $(this).attr('src', 'img/happyFace.png');
+        }
     }
   });
   $('.face2').on({
     'click': function() {
-         var src = ($(this).attr('src') === 'img/sadFace.png')
-            ? 'img/select-sad.png'
-            : 'img/sadFace.png';
-         $(this).attr('src', src);
+      var happyface = $('.face1');
+      if ($(this).attr('src') === 'img/sadFace.png') {
+        $(this).attr('src', 'img/select-sad.png');
+        $(this).parent().find(happyface).attr('src', 'img/happyFace.png');
+      }else{
+        $(this).attr('src', 'img/sadFace.png');
+      }
     }
   });
     
@@ -110,18 +143,24 @@ fetchData().then(data => {
         .join('');
         $('.face1').on({
           'click': function() {
-               var src = ($(this).attr('src') === 'img/happyFace.png')
-                  ? 'img/select-happy.png'
-                  : 'img/happyFace.png';
-               $(this).attr('src', src);
+            var sadface = $('.face2');
+              if ($(this).attr('src') === 'img/happyFace.png') {
+                $(this).attr('src', 'img/select-happy.png');
+                $(this).parent().find(sadface).attr('src', 'img/sadFace.png');
+              }else{
+                $(this).attr('src', 'img/happyFace.png');
+              }
           }
         });
         $('.face2').on({
           'click': function() {
-               var src = ($(this).attr('src') === 'img/sadFace.png')
-                  ? 'img/select-sad.png'
-                  : 'img/sadFace.png';
-               $(this).attr('src', src);
+            var happyface = $('.face1');
+            if ($(this).attr('src') === 'img/sadFace.png') {
+              $(this).attr('src', 'img/select-sad.png');
+              $(this).parent().find(happyface).attr('src', 'img/happyFace.png');
+            }else{
+              $(this).attr('src', 'img/sadFace.png');
+            }
           }
         });
 }
@@ -187,7 +226,10 @@ function saveIndex(event) {
           <li><strong>Taken: </strong> ${course.taken}</li>
         </ul>
       </section> 
-      <button class="moreinfo">More info...</button>
+      <div class="function-button">
+		    <button class="moreinfo">More info...</button>
+	      <a class="back-button" href="index2.html">Back to Recommendation Page</a>
+	    </div>
 
     `;
 
