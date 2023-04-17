@@ -28,7 +28,6 @@ body {
   float: left;
   overflow: hidden;
   text-align: left;
-  border-radius: 5px;
 }
 
 .dropdown {
@@ -137,16 +136,16 @@ margin-bottom: 50px;
 
 
 
-button.button-green {
-  font-size: 26px;
+.button-green {
+  font-size: 55px;
   height: 150px;
   width: 250px;
   margin: 20px;
   padding: 10px 20px;
-  border-radius: 10px;
+  border-radius: 25px;
   border-color: rgb(116, 183, 247);
   cursor: pointer;
-  font-family: 'Calibri', Arial, sans-serif;
+  font-family: cursive;
   box-shadow: 0px 0px 10px rgba(2, 14, 37, 0.25);
   left: 40%;
   background-color: #75c6c5;
@@ -166,32 +165,24 @@ button.button-green {
 }
 
 .description-text {
-  font-size: 20px;
+  font-size: 22px;
   max-width: 450px;
   text-align: center;
   margin-bottom: 20px;
-  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-family: cursive;
   font-style: italic;
 }
 
 .tutorial {
   margin-top: 20px;
-  font-size: 20px;
+  font-size: 30px;
   max-width: 450px;
   text-align: center;
   margin-bottom: 20px;
-  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-family: cursive;
   font-style: italic;  
 }
 
-.description-text {
-  font-size: 20px;
-  max-width: 450px;
-  text-align: center;
-  margin-bottom: 20px;
-  font-family: 'Trebuchet MS', Arial, sans-serif;
-  font-style: italic;
-}
 
 
 .down {
@@ -216,6 +207,8 @@ button.button-green {
 
   .slider-arrow {
       position: absolute;
+      width: 100px;
+      height: 100px;
       
       transform: translateY(-50%);
       background-color: rgba(0, 0, 0, 0.3);
